@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Ara Başlık Stili */
+.ara-baslik {
+  background-color: #f3f4f6; /* Açık gri arka plan */
+  color: #374151; /* Koyu gri yazı */
+  font-weight: 800; /* Kalın yazı */
+  text-align: center; /* Ortala */
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 2px dashed #d1d5db; /* Kesik çizgili çerçeve */
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+/* Normal elemanlar */
+.liste-elemani {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
